@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-quicksand;
+        @apply bg-[#F6F6F6];
+    }
+}
+
+@layer components{
+    .img-row{
+        @apply bg-cover h-[11.50rem] w-full rounded-xl drop-shadow-2xl bg-top;
+    }
+
+    .img-col{
+        @apply bg-cover bg-no-repeat w-full h-full rounded-xl drop-shadow-2xl bg-center;
+    }
+}
